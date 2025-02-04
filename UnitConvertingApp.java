@@ -15,7 +15,7 @@ public class UnitConvertingApp {
         // While loop designed to ask user for conversion inputs until they say to exit
         while (true) {
             System.out.print("Enter a conversion (ex: 5 km = mi): ");
-            String userInput = inputScanner.nextLine().trim();
+            String userInput = inputScanner.nextLine().trim(); // Trim allows for the code to still work if the user inputs spaces
 
             // Break out of loop if user wants to exit the program
             if (userInput.equalsIgnoreCase("exit") || userInput.equals("-1")) {
